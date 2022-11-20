@@ -6,9 +6,6 @@ def funargs(normal, *args, **kwargs):
     for key, value in kwargs.items():
         print(f'special items are {key} and {value}')
 
-
-
-
 arglist = ['a','b','c','d']
 normal = 'following is a list'
 kw = {'a':'1','b':'2','c':'3', 'd':'4'}
