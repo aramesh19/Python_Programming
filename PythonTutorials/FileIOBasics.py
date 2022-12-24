@@ -66,11 +66,11 @@
 #     a = r.write("\nthis is line 8")
 #     print(r.readlines())
 
-def getdate():
-    import datetime
-    return datetime.datetime.now()
-
-print(getdate())
+# def getdate():
+#     import datetime
+#     return datetime.datetime.now()
+#
+# print(getdate())
 
 #
 #
@@ -83,3 +83,21 @@ print(getdate())
 # else:
 #     mode = 'w'
 # print(file_exists)
+
+import ast
+import json
+import pickle
+
+
+file =  open('text3','r')
+d = pickle.load(file)
+for item in d:
+    print(d)
+file.close()
+    # for key, value in enumerate(d):
+    #     print(key, value)
+with open('text3', 'r') as fi:
+
+
+
+
