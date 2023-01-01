@@ -24,3 +24,19 @@ print('Gordon Salary: ', gordon.salary)
 # rohan.salary = 4554
 # rohan.role = "Student"
 
+class Computer:
+
+    def __init__(self, cpu, ram): # normally used to initialize the variables
+        print("in init")
+        self.capacity = cpu
+        self.gb = ram
+
+    def config(self):
+        print("Config is: ", self.capacity, self.gb)
+
+
+com1 = Computer('i5',16)
+com2 = Computer('17',32)
+
+com1.config()
+com2.config()
